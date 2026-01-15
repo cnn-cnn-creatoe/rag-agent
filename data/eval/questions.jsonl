@@ -1,0 +1,5 @@
+{"question": "这个项目是做什么的？", "expected": "知识库,RAG,问答"}
+{"question": "系统支持哪些文件格式？", "expected": "md,txt"}
+{"question": "如何启动服务？", "expected": "uvicorn"}
+
+

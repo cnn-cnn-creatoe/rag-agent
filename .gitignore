@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Virtual Env
+venv/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Project specific - Runtime data (do not commit)
+chroma_db/
+data/chroma/
+data/memory/
+data/logs/
+data/outputs/
+
+# Keep directory structure
+!data/knowledge/
+!data/eval/
+!data/**/.gitkeep
+
+# Downloaded skill library (optional)
+ui-ux-pro-max-skill/
